@@ -7,8 +7,6 @@ const happy = document.querySelector('.happy');
 
  function roll(){
     let numB = 0;
-    setInterval();
-    
   let id = setInterval(frame);
     function frame(){
         if (numB === 200) {
@@ -19,15 +17,7 @@ const happy = document.querySelector('.happy');
             succeed.innerHTML = numB + '+';
         }
     } 
-    
- 
 }
-
-
-
-
-
-
 window.addEventListener('DOMContentLoaded', roll(), roll1(), roll2())
     
 
