@@ -1,4 +1,4 @@
-"use strict"
+
 const succeed = document.querySelector('.suceeded');
 const working = document.querySelector('.working');
 const happy = document.querySelector('.happy');
@@ -10,7 +10,7 @@ const happy = document.querySelector('.happy');
   let id = setInterval(frame);
     function frame(){
         if (numB === 200) {
-            clearInterval(id)
+            clearInterval(id);
         }
         else{
             numB++
