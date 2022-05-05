@@ -9,7 +9,8 @@ const happy = document.querySelector('.happy');
     let numB = 0;
     setInterval();
     
-    function (){
+  let id = setInterval(frame);
+    function (frame){
         if (numB === 200) {
             clearInterval(id)
         }
