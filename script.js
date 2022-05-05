@@ -10,13 +10,12 @@ const happy = document.querySelector('.happy');
     setInterval();
     
     function (){
-        if (numB === 200 || numB === 500) {
+        if (numB === 200) {
             clearInterval(id)
         }
         else{
             numB++
             succeed.innerHTML = numB + '+';
-            happy.innerHTML = numB + '+';
         }
     } 
     
